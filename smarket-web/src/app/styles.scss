@@ -1,0 +1,17 @@
+@import 'equalizer';
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,700,900');
+
+$font: 'Lato', sans-serif;
+
+$blue: #2f95dc;
+
+* {
+    font-family: $font;
+}
+
+.header {
+    height: 60px;
+    width: 100%;
+    background-color: $blue;
+}

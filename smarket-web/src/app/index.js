@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 // import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
+import NavBar from './layout';
 import Login from './screens/Login';
 
 /* import { Alert, ErrorBoundary, Routes } from './components';
@@ -23,7 +24,10 @@ class App extends Component {
 
   render() {
     return (
-      <Login/>
+      <Fragment>
+        <NavBar/>
+        <Login/>
+      </Fragment>
       /* 
       <ErrorBoundary>
         <Alert />
